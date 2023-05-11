@@ -1,0 +1,12 @@
+main {
+    text-align: start;
+}
+
+#test1 {
+    text-align: center;
+    display: flex;
+}
+
+#test1 .hover {
+    scale: 1.2;
+}

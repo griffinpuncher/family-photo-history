@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mainstyle.css"/>
-    <script href="index-script.js"></script>
+    <script src="index-script.js"></script>
     <title>Landing page</title>
 </head>
 <body>
     <header>
-        <h1>Our Family Album</h1>
+        <a href="index.html"><h1>Our Family Album</h1></a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="posts.html">Posts</a></li>
+                <li><a href="concept-test.html">Test</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
@@ -22,12 +24,32 @@
     <main>
         <h2>Welcome to Our Family Album!</h2>
         <p>We're excited to share our family memories with you. Click on one of the categories below to get started.</p>
-        <a href="posts.html">posts</a>
+        <p><a href="posts.html">Posts</a></p>
         <div class="category-list">
-            <a href="#"><img src="family1.jpg" alt="Family Category 1"></a>
-            <a href="#"><img src="family2.jpg" alt="Family Category 2"></a>
-            <a href="#"><img src="family3.jpg" alt="Family Category 3"></a>
-            <a href="#"><img src="family4.jpg" alt="Family Category 4"></a>
+            <div class="category">
+                <a href="#">
+                    <img src="#" alt="Family Category 1">
+                    <p>People</p>
+                </a>
+            </div>
+            <div class="category">
+                <a href="#">
+                    <img src="#" alt="Family Category 2">
+                    <p>Places</p>
+                </a>
+            </div>
+            <div class="category">
+                <a href="#">
+                    <img src="#" alt="Family Category 3">
+                    <p>Events</p>
+                </a>
+            </div>
+            <div class="category">
+                <a href="#">
+                    <img src="#" alt="Family Category 4">
+                    <p>Generations</p>
+                </a>
+            </div>
         </div>
     </main>
     <footer>
