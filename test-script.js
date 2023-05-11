@@ -2,20 +2,13 @@ document.addEventListener("DOMContentLoaded",function() {
     
     //Post Hover Effect Test
     const hoverPost = document.querySelectorAll(".post");
+    const overlay = document.querySelector(".overlay");
+    
+    hoverPost.forEach(element => darkHover(element));
 
-    console.log("hi");
-    console.log(hoverPost);
-
-    hoverPost.forEach(element => {
-        element.addEventListener("mouseenter", hoverEffect); 
-        element.addEventListener("mouseleave", hoverEffect);       
-    });
-
-    function hoverEffect () {
-        //increase size
-        this.classList.toggle("hover");
-        //show preview of Description
-        console.log(this);
+    function darkHover(element) {
+        element.addEventListener("mouseenter", () => overlay.classList.toggle("hover")); 
+        element.addEventListener("mouseleave", () => overlay.classList.toggle("hover")); 
     }
 
     //Database Image Load Test

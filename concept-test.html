@@ -10,6 +10,7 @@
     <title>Concept Tests</title>
 </head>
 <body>
+    <div class="overlay"></div>
     <header>
         <a href="index.html"><h1>Our Family Album</h1></a>
         <nav>
@@ -24,14 +25,32 @@
     </header>
     <main>
         <h3>Post Hover Effect Test</h3>
+        <p class="check">Implemented &#10004</p>
         <div class="test" id="test1">
             <div class="post" id="1">post 1</div>
             <div class="post" id="2">post 2</div>
         </div>
+        <h3>Update Post Structure and Image Cropping</h3>
+        <p class="check">Implemented &#10004</p>
+        <div class="test" id="test2">            
+            <div class="post" id="1">
+                <div class="img-container">
+                    <img src="files/test.jpg" alt="test image">
+                </div>
+            </div>
+            <div class="post" id="2">
+                <div class="img-container">
+                    <img src="files/test.jpg" alt="test image">
+                </div>
+            </div>
+        </div>
+
+        <h3>Overlay</h3>
+        <h6>Tested with activation on hover.</h6>
+        <p class="cross">Not Implemented &#10006</p>
+
         <h3>Database Image Load Test</h3>
-        <div class="test" id="test2">
-            <img src="#" alt="test image">
-        </div>        
+        <p class="cross">Not Implemented &#10006</p>
     </main>
     <footer>
         <p>&copy; Our Family Album 2023. All rights reserved.</p>
